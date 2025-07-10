@@ -46,8 +46,8 @@ const TopProductsChart = ({ selectedCategory }) => {
             {
               label: 'Compras',
               data: fakeValues,
-              backgroundColor: 'rgba(255, 99, 132, 0.6)',
-              borderColor: 'rgba(255, 99, 132, 1)',
+              backgroundColor: 'rgba(99, 255, 122, 0.6)',
+              borderColor: 'rgb(99, 255, 195)',
               borderWidth: 1,
               borderRadius: 4
             }
