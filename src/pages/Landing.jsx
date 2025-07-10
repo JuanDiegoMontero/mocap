@@ -1,105 +1,93 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
+import axios from 'axios';
+import ActiveCategoriesChart from "../components/ActiveCategoriesChart";
+import TopOfferBrandsChart from '../components/TopOfferBrandsChart';
+import SearchTrendsChart from '../components/SearchTrendsChart';
+import TopProductsChart from '../components/TopProductsChart';
 
 
-export default function Landing() {
-  const [categories, setCategories] = useState([]);      // para guardar el array
-  const [loading, setLoading] = useState(true);    // para controlar carga
-  const [error, setError] = useState(null);    // para posibles errores
-  const [selectedCategory, setSelectedCategory] = useState(''); // si quieres manejar selección
+const DashboardBootstrap = () => {
+  const [categories, setCategories] = useState([]);
+  const [selectedCategory, setSelectedCategory] = useState('');
 
+  // Cargar categorías al iniciar
   useEffect(() => {
-    if (selectedCategory) {
-      // hacer algo cuando cambie la categoría
-      console.log('Usuario eligió:', selectedCategory);
-    }
-  }, [selectedCategory]);
-
+    axios.get('http://localhost:8000/categories/')
+      .then(response => {
+        setCategories(response.data);
+      })
+      .catch(error => {
+        console.error('Error al cargar categorías:', error);
+      });
+  }, []);
 
   return (
     <div className="container py-4">
       {/* Filtros */}
       <div className="row mb-4 g-3">
+        
+
         <div className="col-md-3">
-          <select className="form-select">
-            <option>Temporada</option>
+          <select
+            className="form-select"
+            value={selectedCategory}
+            onChange={e => setSelectedCategory(e.target.value)}
+          >
+            <option value="">Todas las Categorías</option>
+            {categories.map((category, index) => (
+              <option key={index} value={category}>
+                {category}
+              </option>
+            ))}
           </select>
         </div>
-        <div className="col-md-3">
-          {loading ? (
-            <p>Cargando categorías…</p>
-          ) : error ? (
-            <p>Error al cargar categorías</p>
-          ) : (
-            <select
-              className="form-select"
-              value={selectedCategory}
-              onChange={e => setSelectedCategory(e.target.value)}
-            >
-              {/* Opción por defecto */}
-              <option value="">Todas las Categorías</option>
-              {/* Mapea cada categoría a un <option> */}
-              {categories.map(cat => (
-                <option key={cat} value={cat}>
-                  {cat}
-                </option>
-              ))}
-            </select>
-          )}
-        </div>
-        <div className="col-md-3">
-          <select className="form-select">
-            <option>Todas las regiones</option>
-          </select>
-        </div>
-        <div className="col-md-3">
-          <select className="form-select">
-            <option>Año</option>
-          </select>
-        </div>
+
+        
       </div>
 
-      {/* Gráficas */}
+    
+
       <div className="row g-4">
-        {/* Card 1 */}
+        
+        {/* Card 1 - Productos más comprados */}
         <div className="col-md-6">
           <div className="card h-100 shadow-sm">
             <div className="card-body">
-              <h5 className="card-title">Los 5 productos más comprados por Categoría</h5>
-              <div className="text-muted text-center py-5">Aquí va la gráfica 1</div>
+              <TopProductsChart selectedCategory={selectedCategory} />
             </div>
           </div>
         </div>
 
-        {/* Card 2 */}
+
+        {/* Card 2 - Gráfica dinámica según categoría */}
         <div className="col-md-6">
           <div className="card h-100 shadow-sm">
             <div className="card-body">
-              <h5 className="card-title">Las 5 búsquedas más populares por categoría</h5>
-              <div className="text-muted text-center py-5">Aquí va la gráfica 2</div>
+              <SearchTrendsChart selectedCategory={selectedCategory} />
             </div>
           </div>
         </div>
 
-        {/* Card 3 */}
+        {/* Card 3 - Marcas más activas en ofertas */}
         <div className="col-md-6">
           <div className="card h-100 shadow-sm">
             <div className="card-body">
-              <h5 className="card-title">Las 5 marcas más activas en oferta</h5>
-              <div className="text-muted text-center py-5">Aquí va la gráfica 3</div>
+              <TopOfferBrandsChart />
             </div>
           </div>
         </div>
 
-        {/* Card 4 */}
+        {/* Card 4 - Categorías con más publicaciones activas */}
         <div className="col-md-6">
           <div className="card h-100 shadow-sm">
             <div className="card-body">
-              <h5 className="card-title">Las 5 categorías con más publicaciones activas</h5>
-              <div className="text-muted text-center py-5">Aquí va la gráfica 4</div>
+              <ActiveCategoriesChart />
             </div>
           </div>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
+
+export default DashboardBootstrap;
