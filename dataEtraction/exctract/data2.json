@@ -1,0 +1,31 @@
+[
+  {
+    "query_data": {
+      "highlight_type": "BEST_SELLER",
+      "criteria": "CATEGORY",
+      "id": "MCO1747"
+    },
+    "content": [
+      { "id": "MCO29790258", "position": 1, "type": "PRODUCT" },
+      { "id": "MCO39083482", "position": 2, "type": "PRODUCT" },
+      { "id": "MCO23892470", "position": 3, "type": "PRODUCT" },
+      { "id": "MCO39932542", "position": 4, "type": "PRODUCT" },
+      { "id": "MCO18609172", "position": 5, "type": "PRODUCT" },
+      { "id": "MCO1269175549", "position": 6, "type": "ITEM" },
+      { "id": "MCO17369101", "position": 7, "type": "PRODUCT" },
+      { "id": "MCO45575521", "position": 8, "type": "PRODUCT" },
+      { "id": "MCO28711219", "position": 9, "type": "PRODUCT" },
+      { "id": "MCO41522928", "position": 10, "type": "PRODUCT" },
+      { "id": "MCO44715385", "position": 11, "type": "PRODUCT" },
+      { "id": "MCO37817938", "position": 12, "type": "PRODUCT" },
+      { "id": "MCO25842577", "position": 13, "type": "PRODUCT" },
+      { "id": "MCO21025487", "position": 14, "type": "PRODUCT" },
+      { "id": "MCO24691192", "position": 15, "type": "PRODUCT" },
+      { "id": "MCO27569352", "position": 16, "type": "PRODUCT" },
+      { "id": "MCO1384535677", "position": 17, "type": "ITEM" },
+      { "id": "MCO37062909", "position": 18, "type": "PRODUCT" },
+      { "id": "MCO28765691", "position": 19, "type": "PRODUCT" },
+      { "id": "MCO20866492", "position": 20, "type": "PRODUCT" }
+    ]
+  }
+]

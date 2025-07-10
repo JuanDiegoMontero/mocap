@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "tendencias-464719",
+  "private_key_id": "9591593eb479889d091229d49e2e58abac48b82a",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCY+jFE2m579reB\n7Yr2CdMgZcukna5TaUuqSiOPl9TTOXaWNFB0aCy5/a+DRMt5K8uwKsXVc4WcfilM\n9+TXO6IycR9NYFNxvFX40ydYHTgDeL2CLzqkmSTqaZf3vB+MLSqxniYfiyBcR7Z1\nOY6jZyknen04i+pJyy/JoxLJJKBltlirOamy9NMpni2DJcS1yHczik6XnRQtkfbP\nZ2rpqiZNpC7uZashL/vHDAvmjGcnLVWZVJCLSv/z/mUGeLmN1KmWmv6gkMY5dQ0e\n6gOmgJgaa7UBqP0lLH+MfWxD3qo7iis9G6aKEwIwBTzJQwY01Tj6mqSUAl8NhSZZ\n2c33JFhTAgMBAAECggEAAVljidnrU4iPgcPYj+byR7zeGOuTGAU7t5rDyYZrSBmf\npB99/ijVDCbin2PB76WlPD6EVCearBCoyJb/G67Y9VzuC76nvb8New5RsINBdTZh\nZX6JI9595ttbjcHI/XGAiOR+LZUKigXP5CTHz0Ufpct8wzzoqhHyr/KSPdfm2j7H\n96buIgSkOG8E9AhCmMBEDiVcqolY0lCd0P5dCqe3ZSW7hi83RE8kdDaAy2i/QItR\nl5qfWqNM9ICzi9D1gqOTB/Wu0vDDyqewhNOezW1rJDD4SdmRuSF33BwJimlcKYHh\nfru3OEJ9uIth2jrzPo9v/Lzt2H9eYPexdXGz2XTFYQKBgQDJhgEDdjT7fclVShLY\nITIvmA6TyPSXHdlq61AFPBUKFFyMvvSeDlpo4mHOmpx1He2+kuUWVpghtWh6rch9\nYKRTLIQMy6LWdgcTxJWtuZ8gA87xFlpeq5KWUsxpJy/znElUC4OdV/Y91PzvN/p6\nRgKaroSGaz39hDpJ9944XOI2qwKBgQDCVKhbaLJzGR+GQyqQAgu8WjD2M6KSeH7p\nEvW4fkxziWOun5yy7lWtwM7/VBzUO3ymj6QzqxuTCZbHkgri4y+ZDojeEVjLs7b6\nApKBwH4Bj+tj42XW22YYXEikIZkzIzhsn8jGxUkQ9nJsvhq3jfeUeb4p7cP+LSLP\nekVrdMeE+QKBgQCifKPQkL0DklaFqGYtUgbPDUGjs0JTnkOxy+4HanxkViqRaV5/\nGn+XVgEavtssK2eIY5THQCcF9uk5EWo4fXXBgoEud/riBOSL8dPl8Wb2P1vaU/Wl\no51cC4K5vlkRiZAubeI/Oa9YB6WxlGcns89hvRkp8MpY4QbGoU7SD0JuZQKBgFH8\n6bL3LyLEXLqGp/RuCImE+9dD3bkyQUkQiL83+gVc18Oa77/GMjvGdw7ea/NWzbZw\nL/TkohOdHhJBGXq0IybOLQyUAQSgY/iDEVDQ59i84bEZBaRqmF56wOMOkdYza+DY\nYRsLrVIMyCX85sS+jtADtSl3eRNJ87/ZdGRrtqnxAoGAScpXuV2M8g041I4DFXp4\n4M5OTSqBn7q4zOJ/oLSfl1+TFc6LJhdqtwQwkD5rhR3xzZmoQ6FI187KjdONm+ZD\n3ny2BKW198aFFpU/inE5SI+VuiYIF9Aye6jx1n2jBzef8J3Gi9nNo/s3OyKtuwrN\nvMUOZOF3QzLOz+/0BcIo988=\n-----END PRIVATE KEY-----\n",
+  "client_email": "fastapi-bigquery-reader-tenden@tendencias-464719.iam.gserviceaccount.com",
+  "client_id": "114275026264929797022",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/fastapi-bigquery-reader-tenden%40tendencias-464719.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

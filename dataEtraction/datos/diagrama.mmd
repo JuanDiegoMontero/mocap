@@ -1,0 +1,49 @@
+erDiagram
+    fact_market_activity {
+        STRING category_id
+        STRING product_id
+        DATE date
+        INTEGER active_listings_count
+        INTEGER sold_units
+        FLOAT offer_price
+        FLOAT offer_discount
+        INTEGER search_volume
+    }
+    
+    dim_category {
+        STRING category_id PK
+        STRING category_name
+    }
+    
+    dim_product {
+        STRING product_id PK
+        STRING product_name
+        STRING category_id FK
+    }
+    
+    dim_search_trend {
+        STRING category_id FK
+        STRING keyword
+        INTEGER search_volume
+    }
+    
+    dim_active_listing {
+        STRING category_id PK
+        INTEGER active_listings_count
+    }
+    
+    dim_offer {
+        STRING offer_id PK
+        STRING product_id FK
+        STRING offer_name
+        FLOAT offer_price
+        FLOAT offer_discount
+        DATE offer_start_date
+        DATE offer_end_date
+    }
+
+    fact_market_activity ||..|| dim_category : "category_id"
+    fact_market_activity ||..|| dim_product : "product_id"
+    fact_market_activity ||..|| dim_search_trend : "category_id"
+    fact_market_activity ||..|| dim_active_listing : "category_id"
+    fact_market_activity ||..|| dim_offer : "product_id"

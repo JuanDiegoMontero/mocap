@@ -1,0 +1,338 @@
+{
+  "id": "MCO37156633",
+  "catalog_product_id": "MCO37156633",
+  "status": "active",
+  "pdp_types": [
+    "traditional"
+  ],
+  "domain_id": "MCO-DRIED_FRUITS",
+  "permalink": "",
+  "name": "Dátiles Sin Semilla 500gr - Kg",
+  "family_name": "Dátiles Sin Semilla 500gr - Kg D' ANTAÑO Frutos Deshidratados Datil",
+  "type": "catalog_product",
+  "buy_box_winner": null,
+  "pickers": [
+    {
+      "picker_id": "NET_WEIGHT",
+      "picker_name": "Peso neto",
+      "products": [
+        {
+          "product_id": "MCO37156633",
+          "picker_label": "500 g",
+          "picture_id": "",
+          "thumbnail": "",
+          "tags": [
+            "selected"
+          ],
+          "permalink": "",
+          "product_name": "Dátiles Sin Semilla 500gr - Kg D' ANTAÑO Frutos Deshidratados Datil - 500 g - Unidad - 1 - Granel",
+          "auto_completed": false
+        }
+      ],
+      "tags": [],
+      "attributes": [
+        {
+          "attribute_id": "NET_WEIGHT",
+          "template": ""
+        }
+      ],
+      "value_name_delimiter": ""
+    },
+    {
+      "picker_id": "UNITS_PER_PACK",
+      "picker_name": "Unidades por pack",
+      "products": [
+        {
+          "product_id": "MCO37156633",
+          "picker_label": "1",
+          "picture_id": "",
+          "thumbnail": "",
+          "tags": [
+            "selected"
+          ],
+          "permalink": "",
+          "product_name": "Dátiles Sin Semilla 500gr - Kg D' ANTAÑO Frutos Deshidratados Datil - 500 g - Unidad - 1 - Granel",
+          "auto_completed": false
+        }
+      ],
+      "tags": [],
+      "attributes": [
+        {
+          "attribute_id": "UNITS_PER_PACK",
+          "template": ""
+        }
+      ],
+      "value_name_delimiter": ""
+    }
+  ],
+  "pictures": [
+    {
+      "id": "925037-MLU76632541011_052024",
+      "url": "https://http2.mlstatic.com/D_NQ_NP_925037-MLU76632541011_052024-F.jpg",
+      "suggested_for_picker": [],
+      "max_width": 1038,
+      "max_height": 796,
+      "source_metadata": null,
+      "tags": [
+        "CAROUSEL"
+      ]
+    },
+    {
+      "id": "719857-MLU76437206542_052024",
+      "url": "https://http2.mlstatic.com/D_NQ_NP_719857-MLU76437206542_052024-F.jpg",
+      "suggested_for_picker": [],
+      "max_width": 694,
+      "max_height": 932,
+      "source_metadata": null,
+      "tags": [
+        "CAROUSEL"
+      ]
+    },
+    {
+      "id": "728149-MLU76437256258_052024",
+      "url": "https://http2.mlstatic.com/D_NQ_NP_728149-MLU76437256258_052024-F.jpg",
+      "suggested_for_picker": [],
+      "max_width": 858,
+      "max_height": 1200,
+      "source_metadata": null,
+      "tags": [
+        "CAROUSEL"
+      ]
+    },
+    {
+      "id": "798876-MLU77910085619_072024",
+      "url": "https://http2.mlstatic.com/D_NQ_NP_798876-MLU77910085619_072024-F.jpg",
+      "suggested_for_picker": null,
+      "max_width": 953,
+      "max_height": 529,
+      "source_metadata": null,
+      "tags": [
+        "CAROUSEL"
+      ]
+    },
+    {
+      "id": "741261-MLU77690625880_072024",
+      "url": "https://http2.mlstatic.com/D_NQ_NP_741261-MLU77690625880_072024-F.jpg",
+      "suggested_for_picker": null,
+      "max_width": 776,
+      "max_height": 734,
+      "source_metadata": null,
+      "tags": [
+        "CAROUSEL"
+      ]
+    }
+  ],
+  "description_pictures": [],
+  "main_features": [
+    {
+      "text": "Frutos deshidratados",
+      "type": "key_value",
+      "metadata": {}
+    },
+    {
+      "text": "Datiles Deshidratados",
+      "type": "key_value",
+      "metadata": {}
+    },
+    {
+      "text": "Sin semilla",
+      "type": "key_value",
+      "metadata": {}
+    }
+  ],
+  "disclaimers": [],
+  "attributes": [
+    {
+      "id": "MANUAL_TITLE",
+      "name": "Título manual",
+      "value_id": "38031579",
+      "value_name": "Dátiles Sin Semilla 500gr - Kg",
+      "values": [
+        {
+          "id": "38031579",
+          "name": "Dátiles Sin Semilla 500gr - Kg"
+        }
+      ]
+    },
+    {
+      "id": "BRAND",
+      "name": "Marca",
+      "value_id": "27266801",
+      "value_name": "D' ANTAÑO",
+      "values": [
+        {
+          "id": "27266801",
+          "name": "D' ANTAÑO"
+        }
+      ]
+    },
+    {
+      "id": "LINE",
+      "name": "Línea",
+      "value_id": "24101511",
+      "value_name": "Frutos Deshidratados",
+      "values": [
+        {
+          "id": "24101511",
+          "name": "Frutos Deshidratados"
+        }
+      ]
+    },
+    {
+      "id": "DRIED_FRUIT_TYPE",
+      "name": "Tipo de fruto seco y deshidratado",
+      "value_id": "11587604",
+      "value_name": "Datil",
+      "values": [
+        {
+          "id": "11587604",
+          "name": "Datil"
+        }
+      ]
+    },
+    {
+      "id": "NET_WEIGHT",
+      "name": "Peso neto",
+      "value_id": "135526",
+      "value_name": "500 g",
+      "values": [
+        {
+          "id": "135526",
+          "name": "500 g"
+        }
+      ]
+    },
+    {
+      "id": "SALE_FORMAT",
+      "name": "Formato de venta",
+      "value_id": "1359391",
+      "value_name": "Unidad",
+      "values": [
+        {
+          "id": "1359391",
+          "name": "Unidad"
+        }
+      ]
+    },
+    {
+      "id": "UNITS_PER_PACK",
+      "name": "Unidades por pack",
+      "value_id": "2726554",
+      "value_name": "1",
+      "values": [
+        {
+          "id": "2726554",
+          "name": "1"
+        }
+      ]
+    },
+    {
+      "id": "SALE_CONDITION",
+      "name": "Condición de venta",
+      "value_id": "10092064",
+      "value_name": "Granel",
+      "values": [
+        {
+          "id": "10092064",
+          "name": "Granel"
+        }
+      ]
+    },
+    {
+      "id": "IS_GLUTEN_FREE",
+      "name": "Es libre de gluten",
+      "value_id": "242085",
+      "value_name": "Sí",
+      "values": [
+        {
+          "id": "242085",
+          "name": "Sí",
+          "meta": {
+            "value": true
+          }
+        }
+      ],
+      "meta": {
+        "value": true
+      }
+    },
+    {
+      "id": "PRESENTATION",
+      "name": "Presentación",
+      "value_id": "13693234",
+      "value_name": "Sin semilla",
+      "values": [
+        {
+          "id": "13693234",
+          "name": "Sin semilla"
+        }
+      ]
+    },
+    {
+      "id": "PRODUCT_CONSERVATION",
+      "name": "Conservación del producto",
+      "value_id": "10792872",
+      "value_name": "Temperatura ambiente",
+      "values": [
+        {
+          "id": "10792872",
+          "name": "Temperatura ambiente"
+        }
+      ]
+    },
+    {
+      "id": "IS_ORGANIC_PRODUCT",
+      "name": "Es producto orgánico",
+      "value_id": "242085",
+      "value_name": "Sí",
+      "values": [
+        {
+          "id": "242085",
+          "name": "Sí",
+          "meta": {
+            "value": true
+          }
+        }
+      ],
+      "meta": {
+        "value": true
+      }
+    },
+    {
+      "id": "SHELF_LIFE",
+      "name": "Vida útil",
+      "value_id": "12271781",
+      "value_name": "6 meses",
+      "values": [
+        {
+          "id": "12271781",
+          "name": "6 meses"
+        }
+      ]
+    }
+  ],
+  "short_description": {
+    "type": "plaintext",
+    "content": "DATILES DESHIDRATADOS\nCONTENIDO: 500GR\nORIGEN ACTUAL: IRAN\nTIPO: SAYER\n\nLos dátiles son ricos en hierro, potasio, calcio y magnesio y son una fuente importante de fibra. También tienen un elevado contenido de calorías, lo cual los convierte en una excelente fuente de energía. Por su sabor dulce, los dátiles también son una alternativa adecuada a los azúcares refinados\n\nLos dátiles ademas son una fruta con propiedades antioxidantes, antibacterianas y rica en fibras, lo que les confiere diversos beneficios para la salud. Aquí tienes algunos de ellos:\n\n***Mantenimiento del intestino: Los dátiles son fuente de fibra, como la pectina y la lignina, que ayudan a prevenir el estreñimiento y mantienen un buen funcionamiento intestinal.\n***Prevención del cáncer: Gracias a sus carotenoides, polifenoles y taninos, los dátiles combaten el exceso de radicales libres y previenen la multiplicación de células cancerígenas."
+  },
+  "parent_id": "MCO37156632",
+  "user_product": null,
+  "children_ids": [],
+  "settings": {
+    "content": "fixed",
+    "listing_strategy": "catalog_required",
+    "with_enhanced_pictures": false,
+    "base_site_product_id": null,
+    "exclusive": false
+  },
+  "quality_type": "COMPLETE",
+  "release_info": null,
+  "presale_info": null,
+  "enhanced_content": null,
+  "tags": [],
+  "date_created": "2024-05-26T19:41:31Z",
+  "authorized_stores": null,
+  "last_updated": "2024-07-15T12:49:07Z",
+  "grouper_id": null,
+  "experiments": {}
+}
