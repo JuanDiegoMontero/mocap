@@ -3,6 +3,8 @@ from bq_client import client
 from google.cloud import bigquery
 
 print("BigQuery client usando proyecto:", client.project)
+# Ejecutar fast api: uvicorn main:app --reload --host 0.0.0.0 --port 8000
+
 
 app = FastAPI(
     title="Tendencias API",

@@ -1,0 +1,4 @@
+google-cloud-bigquery
+fastapi
+uvicorn
+google-auth
