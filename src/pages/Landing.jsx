@@ -65,7 +65,7 @@ export default function Landing() {
         <div className="col-md-6">
           <div className="card h-100 shadow-sm">
             <div className="card-body">
-              <h5 className="card-title">Las 5 marcas con publicaciones activas</h5>
+              <h5 className="card-title">Las 5 categorías con más publicaciones activas</h5>
               <div className="text-muted text-center py-5">Aquí va la gráfica 4</div>
             </div>
           </div>
