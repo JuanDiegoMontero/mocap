@@ -1,10 +1,22 @@
-import React from 'react'
-
+import React, { useState, useEffect } from 'react';
 
 
 export default function Landing() {
-  return (  
-      <div className="container py-4">
+  const [categories, setCategories] = useState([]);      // para guardar el array
+  const [loading, setLoading] = useState(true);    // para controlar carga
+  const [error, setError] = useState(null);    // para posibles errores
+  const [selectedCategory, setSelectedCategory] = useState(''); // si quieres manejar selección
+
+  useEffect(() => {
+    if (selectedCategory) {
+      // hacer algo cuando cambie la categoría
+      console.log('Usuario eligió:', selectedCategory);
+    }
+  }, [selectedCategory]);
+
+
+  return (
+    <div className="container py-4">
       {/* Filtros */}
       <div className="row mb-4 g-3">
         <div className="col-md-3">
@@ -13,9 +25,26 @@ export default function Landing() {
           </select>
         </div>
         <div className="col-md-3">
-          <select className="form-select">
-            <option>Todas las Categorías</option>
-          </select>
+          {loading ? (
+            <p>Cargando categorías…</p>
+          ) : error ? (
+            <p>Error al cargar categorías</p>
+          ) : (
+            <select
+              className="form-select"
+              value={selectedCategory}
+              onChange={e => setSelectedCategory(e.target.value)}
+            >
+              {/* Opción por defecto */}
+              <option value="">Todas las Categorías</option>
+              {/* Mapea cada categoría a un <option> */}
+              {categories.map(cat => (
+                <option key={cat} value={cat}>
+                  {cat}
+                </option>
+              ))}
+            </select>
+          )}
         </div>
         <div className="col-md-3">
           <select className="form-select">

@@ -6,13 +6,15 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Landing from './pages/Landing';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Categories from './components/Categories';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
   <Routes>
-    <Route path="/" element={<Landing />}/>
+    <Route path="/" element={<Categories />}/>
+    <Route path="/landing" element={<Landing />} />
 
   </Routes>
 </BrowserRouter>
