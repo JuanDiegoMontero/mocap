@@ -2,3 +2,5 @@ google-cloud-bigquery
 fastapi
 uvicorn
 google-auth
+google-cloud-core 
+pandas
